@@ -1,6 +1,6 @@
 ## Self Runner 
 
-Self runner is a basic agent using ubuntu 18 arch to run github action build events, The self runner hosted is inspired by @mjhea0
+Self runner is a basic agent using ubuntu 18 arch to run github action build events, The self runner hosted is inspired by [Michael Herman](https://github.com/mjhea0)
 and modified to work for repositories and not organisations.
 
 ### Docker ENV Variables 
@@ -20,7 +20,7 @@ and modified to work for repositories and not organisations.
 #### Run instance from image
 
 ```shell
-docker run --detach --env GIT_REPO=https://github.com/johnsoneyo/jmodelmapper  --env ACCESS_TOKEN=AB4QZ6WHUBJNHL47HCBMULTGCOWGO --name runner runner-image
+> docker run --detach --env GIT_REPO=https://github.com/johnsoneyo/jmodelmapper  --env ACCESS_TOKEN=AB4QZ6WHUBJNHL47HCBMULTGCOWGO --name runner runner-image
 ```
 
 
