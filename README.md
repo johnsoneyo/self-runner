@@ -1,4 +1,4 @@
-## Self Runner 
+## Self Runner :rocket:
 
 Self runner is a basic agent using ubuntu 18 arch to run github action build events, The self runner hosted is inspired by [Michael Herman](https://github.com/mjhea0)
 and modified to work for repositories and not organisations.
